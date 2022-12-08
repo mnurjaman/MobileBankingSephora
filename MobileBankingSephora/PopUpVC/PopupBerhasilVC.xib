@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopupBerhasilVC" customModule="MobileBankingSephora" customModuleProvider="target">
+            <connections>
+                <outlet property="btnTutup" destination="bjg-ch-kwv" id="h91-nh-9MG"/>
+                <outlet property="view" destination="hRM-jS-vkM" id="hqR-du-hI3"/>
+                <outlet property="viewHeader" destination="Fyc-Ve-twf" id="YER-mD-a5u"/>
+                <outlet property="viewPopup" destination="tnf-Yq-D6D" id="kdu-Ns-dDE"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFill" id="hRM-jS-vkM">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tnf-Yq-D6D">
+                    <rect key="frame" x="27.666666666666657" y="257" width="335" height="343"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fyc-Ve-twf" userLabel="headerView">
+                            <rect key="frame" x="0.0" y="0.0" width="335" height="62"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Berhasil!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cay-wx-KFv">
+                                    <rect key="frame" x="15" y="18" width="305" height="26"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="62" id="gZB-Tb-BBv"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MJY-ST-2wj" userLabel="contentView">
+                            <rect key="frame" x="0.0" y="62" width="335" height="211"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="G59-vr-VNZ" userLabel="imgCheck">
+                                    <rect key="frame" x="127" y="10" width="81" height="81"/>
+                                </imageView>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dkg-pX-25U">
+                                    <rect key="frame" x="20" y="111" width="295" height="80"/>
+                                    <string key="text">Selamat! Akun Anda telah berhasil 
+terdaftar di akun Sephora Banking. 
+Silakan menikmati semua fitur Sephora Banking.</string>
+                                    <color key="textColor" systemColor="labelColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="dkg-pX-25U" firstAttribute="leading" secondItem="MJY-ST-2wj" secondAttribute="leading" constant="20" id="AXR-rr-p7v"/>
+                                <constraint firstAttribute="trailing" secondItem="dkg-pX-25U" secondAttribute="trailing" constant="20" id="NtO-Dq-CgR"/>
+                                <constraint firstAttribute="bottom" secondItem="dkg-pX-25U" secondAttribute="bottom" constant="20" id="Sg0-Mt-np9"/>
+                                <constraint firstAttribute="trailing" secondItem="G59-vr-VNZ" secondAttribute="trailing" constant="127" id="YWd-Y3-R8c"/>
+                                <constraint firstAttribute="height" constant="211" id="a4A-9d-TJP"/>
+                                <constraint firstItem="G59-vr-VNZ" firstAttribute="leading" secondItem="MJY-ST-2wj" secondAttribute="leading" constant="127" id="amr-lF-Yf0"/>
+                                <constraint firstItem="G59-vr-VNZ" firstAttribute="top" secondItem="MJY-ST-2wj" secondAttribute="top" constant="10" id="fhz-Sn-2KH"/>
+                                <constraint firstItem="dkg-pX-25U" firstAttribute="top" secondItem="G59-vr-VNZ" secondAttribute="bottom" constant="20" id="wkT-Lv-47M"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjg-ch-kwv">
+                            <rect key="frame" x="15" y="288" width="305" height="40"/>
+                            <color key="backgroundColor" name="PrimaryColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="U6e-dR-31w"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Tutup">
+                                <color key="titleColor" name="bgTxt"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="bjg-ch-kwv" secondAttribute="trailing" constant="15" id="5LK-EL-pHt"/>
+                        <constraint firstItem="bjg-ch-kwv" firstAttribute="leading" secondItem="tnf-Yq-D6D" secondAttribute="leading" constant="15" id="FB9-4M-OGF"/>
+                        <constraint firstAttribute="height" constant="343" id="LZT-7n-cnY"/>
+                        <constraint firstItem="bjg-ch-kwv" firstAttribute="top" secondItem="MJY-ST-2wj" secondAttribute="bottom" constant="15" id="OJj-ZM-7Yx"/>
+                        <constraint firstAttribute="bottom" secondItem="bjg-ch-kwv" secondAttribute="bottom" constant="15" id="Ozr-8Y-pUm"/>
+                        <constraint firstAttribute="trailing" secondItem="Fyc-Ve-twf" secondAttribute="trailing" id="QTf-xj-0f6"/>
+                        <constraint firstAttribute="trailing" secondItem="MJY-ST-2wj" secondAttribute="trailing" id="Wkd-Kv-T28"/>
+                        <constraint firstItem="Fyc-Ve-twf" firstAttribute="top" secondItem="tnf-Yq-D6D" secondAttribute="top" id="Y92-Hy-jCp"/>
+                        <constraint firstItem="MJY-ST-2wj" firstAttribute="leading" secondItem="tnf-Yq-D6D" secondAttribute="leading" id="k8h-mI-5i1"/>
+                        <constraint firstItem="Fyc-Ve-twf" firstAttribute="leading" secondItem="tnf-Yq-D6D" secondAttribute="leading" id="tnV-In-jzE"/>
+                        <constraint firstItem="Fyc-Ve-twf" firstAttribute="top" secondItem="tnf-Yq-D6D" secondAttribute="top" id="udU-iU-Pwk"/>
+                        <constraint firstItem="MJY-ST-2wj" firstAttribute="top" secondItem="Fyc-Ve-twf" secondAttribute="bottom" id="vWf-Pb-Tep"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="aw3-HT-To1"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="tnf-Yq-D6D" firstAttribute="centerX" secondItem="aw3-HT-To1" secondAttribute="centerX" id="IUt-Ae-NXS"/>
+                <constraint firstItem="tnf-Yq-D6D" firstAttribute="centerY" secondItem="aw3-HT-To1" secondAttribute="centerY" id="MAp-nQ-WQn"/>
+            </constraints>
+            <point key="canvasLocation" x="164.61538461538461" y="-18.48341232227488"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="check" width="81.333335876464844" height="81"/>
+        <namedColor name="PrimaryColor">
+            <color red="0.18400000035762787" green="0.50999999046325684" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="bgTxt">
+            <color red="0.95300000905990601" green="0.96899998188018799" blue="0.99199998378753662" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
