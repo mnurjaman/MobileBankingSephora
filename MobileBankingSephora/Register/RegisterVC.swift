@@ -100,7 +100,6 @@ class RegisterVC: ViewController, UITextFieldDelegate{
             // Fallback on earlier versions
         }
         datePicker.datePickerMode = .date
-        
         dateField.textAlignment = .left
         dateField.inputView = datePicker
         dateField.inputAccessoryView = createToolbar()

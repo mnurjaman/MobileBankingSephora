@@ -33,6 +33,25 @@ class PopupBerhasilVC: ViewController {
     }
     @objc
     func actionClose(){
-        self.dismiss(animated: false)
+        // Menutup view popup
+//        self.dismiss(animated: false)
+        let homepage = HomepageVC()
+        self.navigationController?.pushViewController(homepage, animated: true)
+        self.present(homepage, animated: true)
+      
+//
     }
+    @IBAction func btnTutup(_ sender: Any) {
+        // Menutup view popup
+//        self.dismiss(animated: true, completion: nil)
+
+        // Mengarahkan ke homepage
+        
+        let homepage = HomepageVC()
+        self.navigationController?.pushViewController(homepage, animated: true)
+        self.present(homepage, animated: true)
+    
+        
+    }
+
 }
