@@ -28,6 +28,7 @@
                 <outlet property="contentView" destination="M7B-OA-eTE" id="7w5-FP-oKh"/>
                 <outlet property="imgNav" destination="zXN-IV-by8" id="kJO-uY-w7S"/>
                 <outlet property="passwordField" destination="dFD-3c-LP9" id="QVe-T7-w58"/>
+                <outlet property="showHideButton" destination="77C-tu-XY9" id="5r7-ZN-XJe"/>
                 <outlet property="usernameField" destination="BWA-iY-vYD" id="uiq-n4-xbB"/>
                 <outlet property="view" destination="RcI-AF-txM" id="pnp-tD-Yny"/>
             </connections>

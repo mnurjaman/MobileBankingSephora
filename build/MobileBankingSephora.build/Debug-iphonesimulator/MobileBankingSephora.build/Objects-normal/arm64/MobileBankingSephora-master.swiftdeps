@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "518e9581fb2aa190b908d29fca7ffcf0e21c5594840e02fbaac1eff7faac83a9"
+build_start_time: [1670832739, 850963115]
+build_end_time: [1670832740, 19950866]
+inputs:
+  "/Users/muhammadnurjaman/Documents/Bootcamp/MobileBankingSephora/MobileBankingSephora/AppDelegate.swift": !private [1669711746, 628120422]
+  "/Users/muhammadnurjaman/Documents/Bootcamp/MobileBankingSephora/MobileBankingSephora/Extension/UIView+Extension.swift": !private [1670821690, 914673805]
+  "/Users/muhammadnurjaman/Documents/Bootcamp/MobileBankingSephora/MobileBankingSephora/Homepage/HomepageVC.swift": !private [1670666026, 761075496]
+  "/Users/muhammadnurjaman/Documents/Bootcamp/MobileBankingSephora/MobileBankingSephora/Login/LoginViewController.swift": !private [1670824990, 387022495]
+  "/Users/muhammadnurjaman/Documents/Bootcamp/MobileBankingSephora/MobileBankingSephora/OnBoarding/OnBoardingViewController.swift": !private [1670821798, 109243392]
+  "/Users/muhammadnurjaman/Documents/Bootcamp/MobileBankingSephora/MobileBankingSephora/PopUpVC/PopupBerhasilVC.swift": !private [1670824990, 420557498]
+  "/Users/muhammadnurjaman/Documents/Bootcamp/MobileBankingSephora/MobileBankingSephora/PopUpVC/PopupGagalVC.swift": !private [1670821798, 119536399]
+  "/Users/muhammadnurjaman/Documents/Bootcamp/MobileBankingSephora/MobileBankingSephora/Register/RegisterVC.swift": !private [1670673419, 997014522]
+  "/Users/muhammadnurjaman/Documents/Bootcamp/MobileBankingSephora/MobileBankingSephora/SceneDelegate.swift": !private [1669711114, 877050638]
+  "/Users/muhammadnurjaman/Documents/Bootcamp/MobileBankingSephora/MobileBankingSephora/ViewController.swift": !private [1670826428, 363363742]

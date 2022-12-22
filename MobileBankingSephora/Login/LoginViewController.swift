@@ -19,24 +19,14 @@ class LoginViewController: ViewController, UITextFieldDelegate{
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var imgNav: UIImageView!
     
-    
-    //    var validation = Validation()
+    @IBOutlet weak var showHideButton: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        AF.request("https://638c3c19d2fc4a058a53e508.mockapi.io/login", method: .post, parameters: nil, encoding: JSONEncoding.default, headers: nil).responseData { response in
-            switch response.result {
-            case .success(let data):
-                do {
-                    debugPrint(response)
-                    
-                } catch  {
-                    print("catch error")
-                }
-            case .failure(let error):
-                print(error)
-            }
-        }
+        
+       
+        
+   
         
         //img navigation
         let tap = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(_:)))
@@ -45,10 +35,8 @@ class LoginViewController: ViewController, UITextFieldDelegate{
         imgNav.isUserInteractionEnabled = true
         usernameField.delegate = self
         passwordField.delegate = self
-    
         
-        
-        
+      
         //Custom View and button
         contentView.layer.shadowColor = UIColor(red: 0/255.0, green: 0/255.0, blue: 0/255.0, alpha: 1.0).cgColor
         contentView.layer.shadowOffset = CGSize(width: 0, height: 1.75)
@@ -62,36 +50,36 @@ class LoginViewController: ViewController, UITextFieldDelegate{
         
         
     }
-    
-    
-    
-    //image Navigation
-    func OnBack(){
-        //        self.navigationController?.popViewController(animated: false)
-        self.navigationItem.titleView = imgNav
-        navigationItem.titleView = imgNav
-        self.navigationItem.titleView?.addSubview(imgNav)
-        
-    }
-    //img tap back
+    //image Navigation |img tap back
     @objc func handleTap(_ sender: UITapGestureRecognizer? = nil) {
         // handling code
-        
         self.navigationController?.popViewController(animated: true)
+        
+        
     }
     //Popup
-    @objc func Homepage(){
+  @objc func Homepage(){
         let homepage = HomepageVC()
         self.navigationController?.pushViewController(homepage, animated: true)
-        
+        self.dismiss(animated: true, completion: nil)
+    }
+
+    func popupBerhasil(){
+        let popupBerhasil = PopupBerhasilVC()
+        self.navigationController?.pushViewController(popupBerhasil, animated: true)
+       
     }
     
+        
     
     
-    
+
     //ACTION
-    
     @IBAction func btnMasuk(_ sender: Any) {
+        self.validateLogin()
+    }
+    
+    func validateLogin(){
         let username = usernameField.text!
         let password = passwordField.text!
         let popupberhasil = PopupBerhasilVC()
@@ -99,21 +87,43 @@ class LoginViewController: ViewController, UITextFieldDelegate{
         let homepage = HomepageVC()
         popupberhasil.modalPresentationStyle = .custom
         popupgagal.modalPresentationStyle = .custom
-        if username == "" && password == "" {
+        if username == "" || password == "" {
             print("Username dan password tidak boleh kosong")
-            self.present(popupgagal, animated: false)
-        } else if username == "" || password == "" {
-            print("Username atau password tidak boleh kosong")
-            self.present(popupgagal, animated: false, completion: nil)
+            self.present(popupgagal, animated: true)
         } else {
             print("Username dan password benar")
-            self.present(popupberhasil, animated: false, completion: nil)
-            self.present(homepage, animated: true, completion: nil)
+            //
+            AF.request("https://638c3c19d2fc4a058a53e508.mockapi.io/login", method: .post, parameters: nil, encoding: JSONEncoding.default, headers: nil).responseData { response in
+                switch response.result {
+                case .success (let data):
+                    do {
+                        debugPrint(response)
+                        let postBody = try JSONDecoder().decode(dataLogin.self, from: data)
+                        if (username == postBody.username && password == postBody.password){
+                            print("test response => \(postBody.username) => \(postBody.password)")
+                            self.present(popupberhasil, animated: true)
+                            popupberhasil.btnTutup.addTarget(self, action: #selector(self.Homepage), for: .touchUpInside)
+                            print()
+                        } else {
+                            self.present(popupgagal, animated: true)
+                        }
+                    } catch {
+                        print("catch error")
+                    }
+                case .failure(let error):
+                    print(error)
+                }
+            }
         }
-        
-
-        
-        
     }
+   
+}
+
+struct dataLogin : Decodable{
+    let username: String
+    let password: String
     
+    enum CodingKeys: String, CodingKey{
+        case username, password
+    }
 }

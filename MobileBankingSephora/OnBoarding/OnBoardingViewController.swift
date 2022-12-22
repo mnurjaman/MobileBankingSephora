@@ -25,38 +25,18 @@ class OnBoardingViewController: UIViewController{
         
         btnLogin.cornerRadius = 10
         
-//
-//
-            //untuk navigate
-            
-            //        let login = Login()
-//        self.navigationController?.pushViewController(login, animated: true)
-            //
-            
-            //        let nav = UINavigationController(rootViewController: vc)
-            //        self.window?.rootViewController = nav
-            //        self.window?.makeKeyAndVisible()
-            //        return true
-            
-            
-            
-            
-            // Do any additional setup after loading the view.
+   
         }
     @objc
     func onScreenLogin(){
         let loginVC = LoginViewController()
         self.navigationController?.pushViewController(loginVC, animated: true)
-      
-
-        
     }
 
     @objc
     func onScreenRegister(){
         let Register = RegisterVC()
         self.navigationController?.pushViewController(Register, animated: true)
-        
     }
 
         

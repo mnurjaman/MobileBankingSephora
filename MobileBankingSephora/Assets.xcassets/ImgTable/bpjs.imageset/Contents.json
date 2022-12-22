@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "jenis=BPJSKS, Color=Brand.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "jenis=BPJSKS, Color=Brand@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "jenis=BPJSKS, Color=Brand@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,9 +1,9 @@
-////
-////  UIView+Extension.swift
-////  MobileBankingSephora
-////
-////  Created by Muhammad Nurjaman on 30/11/22.
-////
+//
+//  UIView+Extension.swift
+//  MobileBankingSephora
+//
+//  Created by Muhammad Nurjaman on 30/11/22.
+//
 import UIKit
 
 extension UIView {

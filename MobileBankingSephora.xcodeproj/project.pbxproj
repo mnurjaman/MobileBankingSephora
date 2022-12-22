@@ -7,40 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D11D3CF29544B2800DEDBDC /* CellList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D11D3CE29544B2800DEDBDC /* CellList.xib */; };
+		6D1A7CE82950668500964923 /* CellList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1A7CE72950668500964923 /* CellList.swift */; };
 		6D33347329398FBB003029BA /* PopupBerhasilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33347229398FBB003029BA /* PopupBerhasilVC.swift */; };
-		6D33347529398FC9003029BA /* PopupBerhasilVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D33347429398FC9003029BA /* PopupBerhasilVC.xib */; };
 		6D3334772939A64F003029BA /* PopupGagalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3334762939A64F003029BA /* PopupGagalVC.swift */; };
-		6D3334792939A65D003029BA /* PopupGagalVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D3334782939A65D003029BA /* PopupGagalVC.xib */; };
 		6D54C88A294093B400C6D6AD /* HomepageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D54C889294093B400C6D6AD /* HomepageVC.swift */; };
-		6D54C88E2940947800C6D6AD /* HomepageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D54C88D2940947800C6D6AD /* HomepageVC.xib */; };
-		6D76050D2934E9C70060A6D3 /* OnBoardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D76050C2934E9C70060A6D3 /* OnBoardingViewController.xib */; };
-		6D7605112934F2450060A6D3 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D76050E2934F2450060A6D3 /* Roboto-Bold.ttf */; };
-		6D7605122934F2450060A6D3 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D76050F2934F2450060A6D3 /* Roboto-Regular.ttf */; };
-		6D7605132934F2450060A6D3 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D7605102934F2450060A6D3 /* Roboto-Medium.ttf */; };
 		6D76052E2935C0060060A6D3 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D76052D2935C0060060A6D3 /* RegisterVC.swift */; };
-		6D7605302935C04C0060A6D3 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D76052F2935C04C0060A6D3 /* RegisterVC.xib */; };
-		6D7DBACC293DF10800FF243D /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7DBAC4293DEE6E00FF243D /* Alamofire.xcframework */; };
-		6D7DBACD293DF10800FF243D /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7DBAC4293DEE6E00FF243D /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6DB45B7B29500C750070D6ED /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45B7A29500C750070D6ED /* ProfileVC.swift */; };
+		6DB45B7D29500C800070D6ED /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB45B7C29500C800070D6ED /* ProfileVC.xib */; };
+		6DB45B80295017C00070D6ED /* FavoritVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45B7F295017C00070D6ED /* FavoritVC.swift */; };
+		6DB45B83295018900070D6ED /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45B822950188F0070D6ED /* TabBarController.swift */; };
+		6DB45B88295019330070D6ED /* MutasiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45B87295019330070D6ED /* MutasiVC.swift */; };
+		6DB45B8B2950194C0070D6ED /* TransaksiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45B8A2950194C0070D6ED /* TransaksiVC.swift */; };
+		6DB45B8D295022640070D6ED /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45B8C295022640070D6ED /* NotificationVC.swift */; };
+		6DB45B90295036770070D6ED /* NotificationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB45B8F295036770070D6ED /* NotificationVC.xib */; };
+		6DB45B9229504B8C0070D6ED /* FavoritVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB45B9129504B8C0070D6ED /* FavoritVC.xib */; };
 		6DC149B52937546800108FAD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC149B42937546800108FAD /* UIView+Extension.swift */; };
 		6DC42E842934AFF100A50BA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC42E832934AFF100A50BA2 /* AppDelegate.swift */; };
 		6DC42E862934AFF100A50BA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC42E852934AFF100A50BA2 /* SceneDelegate.swift */; };
 		6DC42E882934AFF100A50BA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC42E872934AFF100A50BA2 /* ViewController.swift */; };
-		6DC42E8B2934AFF100A50BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC42E892934AFF100A50BA2 /* Main.storyboard */; };
-		6DC42E8D2934AFF300A50BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC42E8C2934AFF300A50BA2 /* Assets.xcassets */; };
-		6DC42E902934AFF300A50BA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC42E8E2934AFF300A50BA2 /* LaunchScreen.storyboard */; };
 		6DC42E9D2934B37600A50BA2 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC42E9C2934B37600A50BA2 /* OnBoardingViewController.swift */; };
 		6DC42EA12934B85600A50BA2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC42EA02934B85600A50BA2 /* LoginViewController.swift */; };
-		6DC42EA42934B89C00A50BA2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC42EA32934B89C00A50BA2 /* LoginViewController.xib */; };
+		6DD8A85C2947013400A574DA /* UIView+Extension.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6DC149B42937546800108FAD /* UIView+Extension.swift */; };
+		6DD8A85D2947013400A574DA /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D76050E2934F2450060A6D3 /* Roboto-Bold.ttf */; };
+		6DD8A85E2947013400A574DA /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D7605102934F2450060A6D3 /* Roboto-Medium.ttf */; };
+		6DD8A85F2947013400A574DA /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D76050F2934F2450060A6D3 /* Roboto-Regular.ttf */; };
+		6DD8A8602947013400A574DA /* RegisterVC.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6D76052D2935C0060060A6D3 /* RegisterVC.swift */; };
+		6DD8A8612947013400A574DA /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D76052F2935C04C0060A6D3 /* RegisterVC.xib */; };
+		6DD8A8622947013400A574DA /* LoginViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6DC42EA02934B85600A50BA2 /* LoginViewController.swift */; };
+		6DD8A8632947013400A574DA /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC42EA32934B89C00A50BA2 /* LoginViewController.xib */; };
+		6DD8A8642947013400A574DA /* HomepageVC.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6D54C889294093B400C6D6AD /* HomepageVC.swift */; };
+		6DD8A8652947013400A574DA /* HomepageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D54C88D2940947800C6D6AD /* HomepageVC.xib */; };
+		6DD8A8662947013400A574DA /* OnBoardingViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6DC42E9C2934B37600A50BA2 /* OnBoardingViewController.swift */; };
+		6DD8A8672947013400A574DA /* OnBoardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D76050C2934E9C70060A6D3 /* OnBoardingViewController.xib */; };
+		6DD8A8682947013400A574DA /* PopupBerhasilVC.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6D33347229398FBB003029BA /* PopupBerhasilVC.swift */; };
+		6DD8A8692947013400A574DA /* PopupBerhasilVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D33347429398FC9003029BA /* PopupBerhasilVC.xib */; };
+		6DD8A86A2947013400A574DA /* PopupGagalVC.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6D3334762939A64F003029BA /* PopupGagalVC.swift */; };
+		6DD8A86B2947013400A574DA /* PopupGagalVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D3334782939A65D003029BA /* PopupGagalVC.xib */; };
+		6DD8A86C2947013400A574DA /* AppDelegate.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6DC42E832934AFF100A50BA2 /* AppDelegate.swift */; };
+		6DD8A86D2947013400A574DA /* SceneDelegate.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6DC42E852934AFF100A50BA2 /* SceneDelegate.swift */; };
+		6DD8A86E2947013400A574DA /* ViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6DC42E872934AFF100A50BA2 /* ViewController.swift */; };
+		6DD8A86F2947013400A574DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC42E8E2934AFF300A50BA2 /* LaunchScreen.storyboard */; };
+		6DD8A8702947013400A574DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC42E892934AFF100A50BA2 /* Main.storyboard */; };
+		6DD8A8712947013400A574DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC42E8C2934AFF300A50BA2 /* Assets.xcassets */; };
+		6DD8A8A829471F3900A574DA /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7DBAC4293DEE6E00FF243D /* Alamofire.xcframework */; };
+		6DD8A8A929471F3900A574DA /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7DBAC4293DEE6E00FF243D /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6DF3B9BF294C45C700054526 /* Almofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3B9BE294C45C700054526 /* Almofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6D7DBACB293DF0CE00FF243D /* Embed Frameworks */ = {
+		6DD8A8AA29471F3900A574DA /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6D7DBACD293DF10800FF243D /* Alamofire.xcframework in Embed Frameworks */,
+				6DD8A8A929471F3900A574DA /* Alamofire.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +70,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6D11D3CE29544B2800DEDBDC /* CellList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellList.xib; sourceTree = "<group>"; };
+		6D1A7CE72950668500964923 /* CellList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellList.swift; sourceTree = "<group>"; };
 		6D33347229398FBB003029BA /* PopupBerhasilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupBerhasilVC.swift; sourceTree = "<group>"; };
 		6D33347429398FC9003029BA /* PopupBerhasilVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupBerhasilVC.xib; sourceTree = "<group>"; };
 		6D3334762939A64F003029BA /* PopupGagalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupGagalVC.swift; sourceTree = "<group>"; };
@@ -61,6 +85,15 @@
 		6D76052D2935C0060060A6D3 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		6D76052F2935C04C0060A6D3 /* RegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
 		6D7DBAC4293DEE6E00FF243D /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
+		6DB45B7A29500C750070D6ED /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		6DB45B7C29500C800070D6ED /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		6DB45B7F295017C00070D6ED /* FavoritVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritVC.swift; sourceTree = "<group>"; };
+		6DB45B822950188F0070D6ED /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		6DB45B87295019330070D6ED /* MutasiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutasiVC.swift; sourceTree = "<group>"; };
+		6DB45B8A2950194C0070D6ED /* TransaksiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiVC.swift; sourceTree = "<group>"; };
+		6DB45B8C295022640070D6ED /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		6DB45B8F295036770070D6ED /* NotificationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationVC.xib; sourceTree = "<group>"; };
+		6DB45B9129504B8C0070D6ED /* FavoritVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritVC.xib; sourceTree = "<group>"; };
 		6DC149B42937546800108FAD /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		6DC42E802934AFF100A50BA2 /* MobileBankingSephora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileBankingSephora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC42E832934AFF100A50BA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +106,7 @@
 		6DC42E9C2934B37600A50BA2 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		6DC42EA02934B85600A50BA2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6DC42EA32934B89C00A50BA2 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		6DF3B9BE294C45C700054526 /* Almofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Almofire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,13 +114,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D7DBACC293DF10800FF243D /* Alamofire.xcframework in Frameworks */,
+				6DD8A8A829471F3900A574DA /* Alamofire.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D1A7CE42950663C00964923 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				6D1A7CE72950668500964923 /* CellList.swift */,
+				6D11D3CE29544B2800DEDBDC /* CellList.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
 		6D33347129398F89003029BA /* PopUpVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,10 +177,62 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6DB45B7929500C640070D6ED /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6DB45B7A29500C750070D6ED /* ProfileVC.swift */,
+				6DB45B7C29500C800070D6ED /* ProfileVC.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		6DB45B7E295017AD0070D6ED /* Favorit */ = {
+			isa = PBXGroup;
+			children = (
+				6DB45B7F295017C00070D6ED /* FavoritVC.swift */,
+				6DB45B9129504B8C0070D6ED /* FavoritVC.xib */,
+			);
+			path = Favorit;
+			sourceTree = "<group>";
+		};
+		6DB45B81295018740070D6ED /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				6DB45B822950188F0070D6ED /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		6DB45B84295019010070D6ED /* Mutasi */ = {
+			isa = PBXGroup;
+			children = (
+				6DB45B87295019330070D6ED /* MutasiVC.swift */,
+			);
+			path = Mutasi;
+			sourceTree = "<group>";
+		};
+		6DB45B892950193C0070D6ED /* Transaksi */ = {
+			isa = PBXGroup;
+			children = (
+				6DB45B8A2950194C0070D6ED /* TransaksiVC.swift */,
+			);
+			path = Transaksi;
+			sourceTree = "<group>";
+		};
+		6DB45B8E2950226D0070D6ED /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				6DB45B8C295022640070D6ED /* NotificationVC.swift */,
+				6DB45B8F295036770070D6ED /* NotificationVC.xib */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
 		6DC149B32937544C00108FAD /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				6DC149B42937546800108FAD /* UIView+Extension.swift */,
+				6DF3B9BE294C45C700054526 /* Almofire.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -162,13 +257,20 @@
 		6DC42E822934AFF100A50BA2 /* MobileBankingSephora */ = {
 			isa = PBXGroup;
 			children = (
+				6D1A7CE42950663C00964923 /* TableCell */,
 				6DC149B32937544C00108FAD /* Extension */,
 				6D76050B2934E6830060A6D3 /* Fonts */,
-				6DC42EA22934B85F00A50BA2 /* Login */,
 				6DC42E972934B11000A50BA2 /* OnBoarding */,
-				6D33347129398F89003029BA /* PopUpVC */,
+				6DC42EA22934B85F00A50BA2 /* Login */,
 				6D76052C2935BFF30060A6D3 /* Register */,
 				6D54C8882940939000C6D6AD /* Homepage */,
+				6DB45B8E2950226D0070D6ED /* Notification */,
+				6DB45B892950193C0070D6ED /* Transaksi */,
+				6DB45B84295019010070D6ED /* Mutasi */,
+				6DB45B81295018740070D6ED /* TabBarController */,
+				6DB45B7E295017AD0070D6ED /* Favorit */,
+				6DB45B7929500C640070D6ED /* Profile */,
+				6D33347129398F89003029BA /* PopUpVC */,
 				6DC42E832934AFF100A50BA2 /* AppDelegate.swift */,
 				6DC42E852934AFF100A50BA2 /* SceneDelegate.swift */,
 				6DC42E872934AFF100A50BA2 /* ViewController.swift */,
@@ -208,7 +310,7 @@
 				6DC42E7C2934AFF100A50BA2 /* Sources */,
 				6DC42E7D2934AFF100A50BA2 /* Frameworks */,
 				6DC42E7E2934AFF100A50BA2 /* Resources */,
-				6D7DBACB293DF0CE00FF243D /* Embed Frameworks */,
+				6DD8A8AA29471F3900A574DA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -225,9 +327,9 @@
 		6DC42E782934AFF100A50BA2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					6DC42E7F2934AFF100A50BA2 = {
 						CreatedOnToolsVersion = 14.0.1;
@@ -257,18 +359,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D7605132934F2450060A6D3 /* Roboto-Medium.ttf in Resources */,
-				6DC42E902934AFF300A50BA2 /* LaunchScreen.storyboard in Resources */,
-				6D7605122934F2450060A6D3 /* Roboto-Regular.ttf in Resources */,
-				6D7605302935C04C0060A6D3 /* RegisterVC.xib in Resources */,
-				6D76050D2934E9C70060A6D3 /* OnBoardingViewController.xib in Resources */,
-				6D33347529398FC9003029BA /* PopupBerhasilVC.xib in Resources */,
-				6D7605112934F2450060A6D3 /* Roboto-Bold.ttf in Resources */,
-				6D54C88E2940947800C6D6AD /* HomepageVC.xib in Resources */,
-				6DC42E8D2934AFF300A50BA2 /* Assets.xcassets in Resources */,
-				6D3334792939A65D003029BA /* PopupGagalVC.xib in Resources */,
-				6DC42E8B2934AFF100A50BA2 /* Main.storyboard in Resources */,
-				6DC42EA42934B89C00A50BA2 /* LoginViewController.xib in Resources */,
+				6DB45B7D29500C800070D6ED /* ProfileVC.xib in Resources */,
+				6DD8A85C2947013400A574DA /* UIView+Extension.swift in Resources */,
+				6DD8A85D2947013400A574DA /* Roboto-Bold.ttf in Resources */,
+				6DD8A85E2947013400A574DA /* Roboto-Medium.ttf in Resources */,
+				6DD8A85F2947013400A574DA /* Roboto-Regular.ttf in Resources */,
+				6DD8A8602947013400A574DA /* RegisterVC.swift in Resources */,
+				6DD8A8612947013400A574DA /* RegisterVC.xib in Resources */,
+				6DD8A8622947013400A574DA /* LoginViewController.swift in Resources */,
+				6DD8A8632947013400A574DA /* LoginViewController.xib in Resources */,
+				6DD8A8642947013400A574DA /* HomepageVC.swift in Resources */,
+				6DD8A8652947013400A574DA /* HomepageVC.xib in Resources */,
+				6DB45B90295036770070D6ED /* NotificationVC.xib in Resources */,
+				6DD8A8662947013400A574DA /* OnBoardingViewController.swift in Resources */,
+				6D11D3CF29544B2800DEDBDC /* CellList.xib in Resources */,
+				6DD8A8672947013400A574DA /* OnBoardingViewController.xib in Resources */,
+				6DD8A8682947013400A574DA /* PopupBerhasilVC.swift in Resources */,
+				6DD8A8692947013400A574DA /* PopupBerhasilVC.xib in Resources */,
+				6DD8A86A2947013400A574DA /* PopupGagalVC.swift in Resources */,
+				6DB45B9229504B8C0070D6ED /* FavoritVC.xib in Resources */,
+				6DD8A86B2947013400A574DA /* PopupGagalVC.xib in Resources */,
+				6DD8A86C2947013400A574DA /* AppDelegate.swift in Resources */,
+				6DD8A86D2947013400A574DA /* SceneDelegate.swift in Resources */,
+				6DD8A86E2947013400A574DA /* ViewController.swift in Resources */,
+				6DD8A86F2947013400A574DA /* LaunchScreen.storyboard in Resources */,
+				6DD8A8702947013400A574DA /* Main.storyboard in Resources */,
+				6DD8A8712947013400A574DA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,14 +395,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB45B7B29500C750070D6ED /* ProfileVC.swift in Sources */,
+				6DB45B80295017C00070D6ED /* FavoritVC.swift in Sources */,
 				6DC42E882934AFF100A50BA2 /* ViewController.swift in Sources */,
 				6DC149B52937546800108FAD /* UIView+Extension.swift in Sources */,
 				6DC42EA12934B85600A50BA2 /* LoginViewController.swift in Sources */,
+				6DB45B8D295022640070D6ED /* NotificationVC.swift in Sources */,
+				6DB45B8B2950194C0070D6ED /* TransaksiVC.swift in Sources */,
 				6D54C88A294093B400C6D6AD /* HomepageVC.swift in Sources */,
 				6D3334772939A64F003029BA /* PopupGagalVC.swift in Sources */,
+				6DB45B88295019330070D6ED /* MutasiVC.swift in Sources */,
 				6DC42E842934AFF100A50BA2 /* AppDelegate.swift in Sources */,
+				6D1A7CE82950668500964923 /* CellList.swift in Sources */,
 				6D76052E2935C0060060A6D3 /* RegisterVC.swift in Sources */,
 				6D33347329398FBB003029BA /* PopupBerhasilVC.swift in Sources */,
+				6DF3B9BF294C45C700054526 /* Almofire.swift in Sources */,
+				6DB45B83295018900070D6ED /* TabBarController.swift in Sources */,
 				6DC42E862934AFF100A50BA2 /* SceneDelegate.swift in Sources */,
 				6DC42E9D2934B37600A50BA2 /* OnBoardingViewController.swift in Sources */,
 			);
@@ -365,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -451,7 +575,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -487,7 +611,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

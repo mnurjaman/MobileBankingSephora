@@ -75,9 +75,12 @@ class RegisterVC: ViewController, UITextFieldDelegate{
     
     //PopUP
     @objc func onNextScreen(){
-         let popUp = PopupGagalVC()
-        popUp.modalPresentationStyle = .custom
-         self.present(popUp, animated: false)
+        let homepage = HomepageVC()
+        self.navigationController?.pushViewController(homepage, animated: true)
+        self.dismiss(animated: true, completion: nil)
+//         let popUp = PopupGagalVC()
+//        popUp.modalPresentationStyle = .custom
+//         self.present(popUp, animated: false)
     
          
      }
