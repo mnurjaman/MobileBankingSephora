@@ -41,7 +41,7 @@ class HomepageVC: UIViewController {
     let data: [Transaksi] = [
         Transaksi(lblTransaksi1: "Top Up E-Wallet", lblTransaksi2: "Gopay - 08123123123", lblNominal: "Rp.14.000.000", imgTransaksi: "icon"),
         Transaksi(lblTransaksi1: "Transfer Masuk", lblTransaksi2: "BRI - 3453 3434 3435", lblNominal: "Rp.130.000.000", imgTransaksi: "icon1"),
-        Transaksi(lblTransaksi1: "Pembelian", lblTransaksi2: "Telkomsel - 08123123123", lblNominal: "Rp.14.000.000", imgTransaksi: "icon2")
+        Transaksi(lblTransaksi1: "Pembelian", lblTransaksi2: "Telkomsel - 08123123123", lblNominal: "Rp.140.000.000", imgTransaksi: "icon2")
     ]
 //    let data: [Favorit] = [
 //        Favorit.
