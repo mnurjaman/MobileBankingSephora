@@ -24,8 +24,6 @@ class PopupBerhasilVC: ViewController {
  
         viewHeader.cornerRadius = 15
         btnTutup.cornerRadius = 10
-        
-        
     }
 
 

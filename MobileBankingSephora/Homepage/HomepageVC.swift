@@ -43,13 +43,7 @@ class HomepageVC: UIViewController {
         Transaksi(lblTransaksi1: "Transfer Masuk", lblTransaksi2: "BRI - 3453 3434 3435", lblNominal: "Rp.130.000.000", imgTransaksi: "icon1"),
         Transaksi(lblTransaksi1: "Pembelian", lblTransaksi2: "Telkomsel - 08123123123", lblNominal: "Rp.140.000.000", imgTransaksi: "icon2")
     ]
-//    let data: [Favorit] = [
-//        Favorit.
-//        Fav
-////        Fav
-//
-//    ]
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -131,7 +125,6 @@ class HomepageVC: UIViewController {
     //img tap back
     @objc func handleTap(_ sender: UITapGestureRecognizer? = nil) {
         let Notification = NotificationVC()
-       
         navigationItem.titleView?.addSubview(imgNotification)
         self.navigationController?.pushViewController(Notification, animated: true)
        

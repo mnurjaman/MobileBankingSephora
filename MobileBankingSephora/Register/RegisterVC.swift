@@ -100,7 +100,6 @@ class RegisterVC: ViewController, UITextFieldDelegate{
         if #available(iOS 13.4, *) {
             datePicker.preferredDatePickerStyle = .wheels
         } else {
-            // Fallback on earlier versions
         }
         datePicker.datePickerMode = .date
         dateField.textAlignment = .left
@@ -113,10 +112,8 @@ class RegisterVC: ViewController, UITextFieldDelegate{
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .medium
         dateFormatter.timeStyle = .none
-        
         self.dateField.text = dateFormatter.string(from: datePicker.date)
         self.view.endEditing(true)
-        
     }
     
     
